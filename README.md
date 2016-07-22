@@ -1,9 +1,9 @@
 # vagrant-client
 A feature rich vagrant install with lots of documented configs (MAC OS X)
 
-If you are new to vagrant, read a brief intro --
+If you are new to vagrant, read a brief intro -- https://www.vagrantup.com/docs/getting-started/
 
-Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
+As per thier description -- Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
 
 To achieve its magic, Vagrant stands on the shoulders of giants. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can be used to automatically install and configure software on the machine.
 
@@ -27,6 +27,7 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 # Install Vagrant on your MAC
 
 Install on MAC/or whatever goto https://www.vagrantup.com/downloads.html
+
 also download and install VBOX* - https://www.virtualbox.org/
 
 * Oracles Virtual Box (or VBOX) is the default "provider" AWS and VMware can also be used.
