@@ -47,15 +47,15 @@ My preferences is to create a folder $HOME/vbox.  Then for each new virtual mach
 
 Even more personalisation, I would consider these optional, but I place them here for refernce.
 
-# get from REPO - bashrc-vbox file
-  wget https://storage.googleapis.com/jorgedlt-config-repo/bashrc-vbox
-  mv bashrc-vbox .bashrc && source .bashrc
-  #
-
-# get from REPO - vimrc file
-  wget https://storage.googleapis.com/jorgedlt-config-repo/vimrc
-  mv vimrc .vimrc
-  sudo apt-get -y install vim
-  #
+	- get from REPO - bashrc-vbox file
+	  wget https://storage.googleapis.com/jorgedlt-config-repo/bashrc-vbox
+	  mv bashrc-vbox .bashrc && source .bashrc
+	  #
+	
+	- get from REPO - vimrc file
+	  wget https://storage.googleapis.com/jorgedlt-config-repo/vimrc
+	  mv vimrc .vimrc
+	  sudo apt-get -y install vim
+	  #
   
 -- dlt
