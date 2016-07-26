@@ -40,6 +40,7 @@ My preferences is to create a folder $HOME/vbox.  Then for each new virtual mach
 	cp vagrant-client/v_bootstrap.sh .
 	cp vagrant-client/v_startup.sh .
 	cp vagrant-client/Vagrantfile .
+	cp vagrant-client/mkswap.sh .         # somewhat optional
 	v up
 
 -dlt
