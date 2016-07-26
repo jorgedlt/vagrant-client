@@ -36,4 +36,12 @@ see other boxes available -- Box Archive -- http://www.vagrantbox.es/
 
 My preferences is to create a folder $HOME/vbox.  Then for each new virtual machine; I create a an additional folder inside $HOME/vbox (ie. $HOME/vbox/UBUNTU1404). I **cd** in that new folder. I clone down this REPO, and then **cp** the files I want down. After I have edited the needed file(s), I simply **vagrant up**, as normal [skipping the **vagrant init**].
 
+### suggested post install
+	cp vagrant-client/v_bootstrap.sh .
+	cp vagrant-client/v_startup.sh .
+	cp vagrant-client/Vagrantfile .
+	v up
+
 -dlt
+
+** NOTE v is an 'alias v='vagrant''
