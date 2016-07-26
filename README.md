@@ -43,6 +43,19 @@ My preferences is to create a folder $HOME/vbox.  Then for each new virtual mach
 	cp vagrant-client/mkswap.sh .  ; chmod +x mkswap.sh        # somewhat optional
 	v up
 
--dlt
+** NOTE v is an 'alias v='vagrant'
 
-** NOTE v is an 'alias v='vagrant''
+Even more personalisation, I would consider these optional, but I place them here for refernce.
+
+# get from REPO - bashrc-vbox file
+  wget https://storage.googleapis.com/jorgedlt-config-repo/bashrc-vbox
+  mv bashrc-vbox .bashrc && source .bashrc
+  #
+
+# get from REPO - vimrc file
+  wget https://storage.googleapis.com/jorgedlt-config-repo/vimrc
+  mv vimrc .vimrc
+  sudo apt-get -y install vim
+  #
+  
+-- dlt
