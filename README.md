@@ -53,17 +53,17 @@ My preferences is to create a folder $HOME/vbox.  Then for each new virtual mach
 
 ** NOTE v is an 'alias v='vagrant'
 
-Even more personalisation, I would consider these optional, but I place them here for refernce.
+Once the vagrant is up and running, from inside of the vbox iteslf, even more personalisation is possible. I would consider these optional, but I place them here for my refernce and conviniance.
 
-	- get from REPO - bashrc-vbox file
+	# get from REPO - bashrc-vbox file
 	  wget https://storage.googleapis.com/jorgedlt-config-repo/bashrc-vbox
 	  mv bashrc-vbox .bashrc && source .bashrc
-	  #
+
 	
-	- get from REPO - vimrc file
+	# get from REPO - vimrc file
 	  wget https://storage.googleapis.com/jorgedlt-config-repo/vimrc
 	  mv vimrc .vimrc
 	  sudo apt-get -y install vim
-	  #
+
   
 -- dlt
