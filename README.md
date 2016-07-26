@@ -11,6 +11,7 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 
 	Vagrantfile               -- my recommended Vagrantfile - Edit if needed.
 	                             has extra RAM and CPUs config'ed
+	                             * this file can be edited to allow for more CPU & RAM
 	
 	Vagrantfile.multi         -- Multi Machine Cluster file.
 	                             A ruby/yaml kludge to have 4 or 5 virtuals
@@ -19,10 +20,17 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 	                             Has lots of good documentation
 	
 	v_bootstrap.sh            -- template script 
-	                             to provision your vbox 
+	                             to provision your vbox
+	                              * this file can be edited to allow for more system packages
+	                                like java, mysql-server, or any other apt-get package.
 	
 	v_startup.sh              -- template script 
 	                             which runs everytime, when one restarts vagrant
+	                              * this file can be edited to allow service startup, etc.
+	                              
+	mkswap.sh                 -- manaual script to add SWAP to vbox
+	
+	addNODE.sh                -- manaual script to add NODE.JS to vbox (via NVM method) -- pending!
 
 # Install Vagrant on your MAC
 
