@@ -27,6 +27,21 @@ apt-get install -y htop git
 #  ln -fs /vagrant /var/www
 # fi
 
+### Install oracle-java8
+
+sudo apt-get install -y software-properties-common
+
+sudo apt-get install -y python-software-properties debconf-utils
+sudo add-apt-repository -y ppa:webupd8team/java
+sudo apt-get update
+
+echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
+sudo apt-get install -y oracle-java8-installer
+
+## todo - add ENV variables, $JAVAHOME to .bashrc
+
+####
+
 # Install Java (open)
   # apt-get -y install openjdk-7-jre              2> /dev/null
   # apt-get -y install openjdk-7-jdk lib32stdc++6 2> /dev/null
