@@ -22,7 +22,7 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 	v_bootstrap.sh            -- template script 
 	                             to provision your vbox
 	                              * this file can be edited to allow for more system packages
-	                                like java, mysql-server, or any other apt-get package.
+	                                like ora java, mysql-server, or any other apt-get package.
 	
 	v_startup.sh              -- template script 
 	                             which runs everytime, when one restarts vagrant
