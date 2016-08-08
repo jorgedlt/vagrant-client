@@ -35,14 +35,17 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 # Install Vagrant on your MAC
 
 Install on MAC/or whatever goto https://www.vagrantup.com/downloads.html
-
 also download and install VBOX* - https://www.virtualbox.org/
 
 * Oracles Virtual Box (or VBOX) is the default "provider" AWS and VMware can also be used.
 
 see other boxes available -- Box Archive -- http://www.vagrantbox.es/
 
-My preferences is to create a folder $HOME/vbox.  Then for each new virtual machine; I create a an additional folder inside $HOME/vbox (ie. $HOME/vbox/UBUNTU1404). I **cd** in that new folder. I clone down this REPO, and then **cp** the files I want down. After I have edited the needed file(s), I simply **vagrant up**, as normal [skipping the **vagrant init**].
+My preferences is to create a folder $HOME/vbox.  Then for each new virtual machine; I create a an additional folder inside $HOME/vbox (ie. $HOME/vbox/UBUNTU1404). I **cd** in that new folder. I *clone* down this REPO, 
+
+	new-dir $ git clone https://github.com/jorgedlt/vagrant-client.git
+
+and then **cp** the files I want down. After I have edited the needed file(s), I simply **vagrant up**, as normal [skipping the **vagrant init**].
 
 ### suggested post install
 	cp vagrant-client/v_bootstrap.sh .
