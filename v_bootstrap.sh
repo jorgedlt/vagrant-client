@@ -10,6 +10,11 @@ apt-get update
 apt-get -y upgrade
 #
 apt-get install -y htop git
+apt-get install -y vim
+
+# TAP Compliant Testing for BASH
+apt-get install -y bats       # as of 10 Aug 2016 - current with;
+                              # https://github.com/sstephenson/bats
 
 # apt-get install -y curl mysql-server-5.5
 # php5 php5-curl php5-mysql php5-cli php5-readline php5-xdebug php-pear hhvm
@@ -27,14 +32,13 @@ apt-get install -y htop git
 #  ln -fs /vagrant /var/www
 # fi
 
-### Install oracle-java8
-
+### Install oracle-java8 - Dependendcies
 sudo apt-get install -y software-properties-common
-
 sudo apt-get install -y python-software-properties debconf-utils
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt-get update
 
+# Install oracle-java8
 echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
 sudo apt-get install -y oracle-java8-installer
 
