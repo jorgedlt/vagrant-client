@@ -23,6 +23,8 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 	                             to provision your vbox
 	                              * this file can be edited to allow for more system packages
 	                                like ora java, mysql-server, or any other apt-get package.
+	                              * As an added avantage, these files are 100% compatible with
+	                              AWS EC2 User-Data Script, just copy-and-paste into dialog box.
 	
 	v_startup.sh              -- template script 
 	                             which runs everytime, when one restarts vagrant
