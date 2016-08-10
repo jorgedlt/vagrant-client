@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # vi: set ft=ruby :
 #
-# v_bootstrap.sh
+# v_bootstrap.sh - # vagrant provisioning files - ec2 user-data ready
 #
 # jorgedlt@gmail.com - 2016-07-22 12:50:19
 
