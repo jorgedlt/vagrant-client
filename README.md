@@ -55,6 +55,8 @@ and then **cp** the files I want down. After I have edited the needed file(s), I
 	cp vagrant-client/Vagrantfile .
 	cp vagrant-client/mkswap.sh .  ; chmod +x mkswap.sh        # somewhat optional
 	v up
+	
+	then ... v ssh     # login into new vbox
 
 ** NOTE v is an 'alias v='vagrant'
 
