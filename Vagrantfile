@@ -7,7 +7,7 @@
 # jorgedlt@gmail.com - 2016-07-22 12:50:19
 
 Vagrant.configure(2) do |config|
-    config.vm.box = "boxcutter/ubuntu1510"
+    config.vm.box = "boxcutter/ubuntu1604"
 
       # Provisioning & Start-Up
        config.vm.provision :shell, path: "v_bootstrap.sh"
